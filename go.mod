@@ -1,7 +1,6 @@
 module github.com/bitnami/kubecfg
 
 require (
-	github.com/Azure/go-autorest/autorest v0.10.0 // indirect
 	github.com/elazarl/go-bindata-assetfs v1.0.1-0.20180223160309-38087fe4dafb
 	github.com/evanphx/json-patch v4.9.0+incompatible
 	github.com/genuinetools/reg v0.16.1
@@ -20,17 +19,16 @@ require (
 	github.com/sirupsen/logrus v1.6.0
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.5.1
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d // indirect
+	github.com/stretchr/testify v1.6.1
+	golang.org/x/crypto v0.0.0-20201002170205-7f63de1d35b0
 	google.golang.org/grpc v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.19.3
+	k8s.io/api v0.20.0
 	k8s.io/apiextensions-apiserver v0.19.3
-	k8s.io/apimachinery v0.19.3
-	k8s.io/client-go v0.19.3
+	k8s.io/apimachinery v0.20.0
+	k8s.io/client-go v0.20.0
 	k8s.io/klog v1.0.0
-	k8s.io/kube-openapi v0.0.0-20200923155610-8b5066479488
+	k8s.io/kube-openapi v0.0.0-20201113171705-d219536bb9fd
 	k8s.io/kubectl v0.19.3
 )
 
